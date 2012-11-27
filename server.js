@@ -11,6 +11,10 @@ app.configure(function () {
     app.use(express.static(path.join(__dirname, 'public')));
 });
 
+app.get('/', function(req, res) {
+    res.send('Hi there.');
+});
+
 app.get('/bottles', function(req, res) {
     res.sendfile('public/counter.html');
 });
