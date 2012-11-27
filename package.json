@@ -1,0 +1,11 @@
+{
+    "name": "sandbox",
+    "description": "",
+    "version": "0.1.0",
+    "author": "",
+    "dependencies": {},
+    "devDependencies": {
+    	"express" : "3.0.*",
+        "jade" : "*"
+    }
+}
